@@ -1,0 +1,64 @@
+.header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("sheep-5358102_1280.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3rem;
+    color: rgb(204, 206, 124);
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+nav a{
+    padding: 1rem 0.5rem;
+    color: #80dfe4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+nav a:active{
+    background-color: hsl(202, 79%, 83%);
+    color: hsl(209, 77%, 63%);
+}
+nav a:hover{
+    text-decoration:underline;
+    background-color:#fcd7b924;
+  }
+
+.blogs{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 4rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(233, 200, 200);
+    bottom: 0;
+}
